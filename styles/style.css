@@ -1,8 +1,11 @@
-@import "../styles/interior.css";
-@import "../styles/aboutus.css";
-@import "../styles/projects.css";
-@import "../styles/services.css";
-@import "../styles/reviews.css";
+@import "/styles/interior.css";
+@import "/styles/aboutus.css";
+@import "/styles/projects.css";
+@import "/styles/services.css";
+@import "/styles/reviews.css";
+@import "/styles/gallery.css";
+@import "/styles/contacts.css";
+@import "/styles/footer.css";
 
 html {
   scroll-behavior: smooth;
@@ -14,8 +17,12 @@ body {
 .container {
   width: 1150px;
   margin: 0 auto;
-  background-color: #ffffff;
 }
+
+.container-black {
+  background-color: #121212;
+}
+
 .main__inner {
   padding-top: 70px;
 }
